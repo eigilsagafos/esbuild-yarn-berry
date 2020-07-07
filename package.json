@@ -1,0 +1,14 @@
+{
+    "name": "esbuild-yarn-berry",
+    "version": "0.0.0",
+    "private": true,
+    "engines": {
+        "node": ">=12"
+    },
+    "scripts": {
+        "build": "esbuild --bundle src/foo.js --platform=node --outfile=dist/out.js"
+    },
+    "dependencies": {
+        "esbuild": "0.5.16"
+    }
+}
